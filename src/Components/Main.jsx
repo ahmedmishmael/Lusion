@@ -9,7 +9,7 @@ const Main = () => {
     <div id="main">
       <Sidebar />
       <Routes>
-        <Route path="/Lusion" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/shop" element={<Shop />} />
       </Routes>
     </div>

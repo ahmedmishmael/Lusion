@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import Context from "./Context";
 import "../CSS/Sidebar.css";
@@ -33,6 +33,7 @@ const Sidebar = () => {
                 <div key={e.id} id="product-row" className="mb-1">
                   <img
                     src={e.img}
+                    alt={e.title}
                     style={{
                       display: `inline`,
                       width: `50px`,

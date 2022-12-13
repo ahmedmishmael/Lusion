@@ -1,10 +1,11 @@
 import "../CSS/Footer.css";
 import React from "react";
 import Container from "react-bootstrap/esm/Container";
-import { Routes, Route, Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import FacebookIcon from "../images/facebook.svg";
 import TwitterIcon from "../images/twitter.svg";
 import InstagramIcon from "../images/instagram.svg";
+import AhmedIshmaelLogo from "../images/Ahmed Ishmael Logo.png";
 
 const Footer = () => {
   return (
@@ -45,11 +46,30 @@ const Footer = () => {
             <p>
               Be the first to know about our new arrivals and exclusive offers.
             </p>
-            <form action="">
+            <form>
               <input id="email" type="email" placeholder="Your email address" />
-              <input id="submit" type="submit" />
+              <button id="submit" type="button">
+                Submit
+              </button>
             </form>
           </div>
+        </div>
+        <div className="text-center">
+          <p>&copy; 2022 All Rights Reserved</p>
+          <p className="d-flex justify-content-center">
+            Coded with &hearts; by Ahmed Ishmael{" "}
+            <a
+              href="https://ahmedmishmael.github.io"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={AhmedIshmaelLogo}
+                alt="Ahmed Ishmael Logo"
+                height="20px"
+              />
+            </a>
+          </p>
         </div>
       </Container>
     </div>

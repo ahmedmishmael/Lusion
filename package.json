@@ -1,7 +1,7 @@
 {
   "name": "app",
   "version": "0.1.0",
-  "homepage": "https://devahmedishmael.github.io/Lusion",
+  "homepage": "https://ahmedmishmael.github.io/lusion",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
